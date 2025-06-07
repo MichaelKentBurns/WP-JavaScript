@@ -1,0 +1,30 @@
+{
+  "name": "wp-javascript",
+  "version": "1.0.0",
+  "description": "A project to allow JavaScript code to be run inside WordPress",
+  "keywords": [
+    "wordpress",
+    "javascript"
+  ],
+  "homepage": "https://github.com/MichaelKentBurns/WP-Javascript#readme",
+  "bugs": {
+    "url": "https://github.com/MichaelKentBurns/WP-Javascript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelKentBurns/WP-Javascript.git"
+  },
+  "license": "ISC",
+  "author": "MichaelKentBurns",
+  "type": "mjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "wpapi": "^1.2.2"
+  }
+}
